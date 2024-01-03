@@ -1,0 +1,88 @@
+$siteResolution: 1px;
+$mainFont: 'Manrope';
+$type1Font: 'Vensfolk';
+$type2Font: 'Gyahegi';
+$type3Font: 'Arkhip';
+$type4Font: 'Montserrat';
+$mainWeight: 400;
+$lineHeightMedium: 1.22;
+$lineHeightTitle: 1.22;
+$lineHeightDefault: $lineHeightMedium;
+
+$containerWidth: 1206rem;
+
+$whiteColor: #ffffff;
+$blackColor: #000000;
+$black1Color: #161B41;
+$black2Color: #1A0143;
+$black3Color: #34345E;
+
+$fontFamily: $mainFont, sans-serif;
+$fontColor: $blackColor;
+$fontWeight: $mainWeight;
+
+$gradient1: linear-gradient(90deg, #5D57CB 35.24%, #5CCAF9 71.28%, #52088C 98.73%);
+$gradient2: linear-gradient(90deg, #292D86 1.01%, #6A77F1 62.46%, #371EA5 101.68%);
+$gradient3: linear-gradient(180deg, #5E19F2 0%, #2D0470 111.73%);
+$gradient4: linear-gradient(90deg, #FFF 0.15%, #E4C9FF 39.22%, #FFF 75.17%);
+$gradient5: linear-gradient(90deg, #DB94FF -2.41%, #E5DFFF 49%, #92B2FF 98.11%);
+$gradient6: linear-gradient(86deg, #F9ECFF 0%, #DBF6FF 101.29%);
+$gradient7: linear-gradient(91deg, #D1A4FF 35.24%, #78D7FF 71.28%, #D299FF 98.73%);
+
+$shadowBox1: 0 20rem 20rem rgba($blackColor, .25);
+$shadowBox2: 0 15rem 20rem rgba($blackColor, .25);
+
+$borderRadiusSm: 5rem;
+$borderRadiusMd: 30rem;
+$borderRadiusLg: 50rem;
+
+$transition: all .4s 0ms;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs;
+
+:root {
+  --fs-default: 16rem;
+  --fs-1: 60rem;
+  --fs-2: 55rem;
+  --fs-3: 50rem;
+  --fs-4: 45rem;
+  --fs-5: 40rem;
+  --fs-6: 29rem;
+  --fs-7: 25rem;
+  --fs-8: 23rem;
+  --fs-9: 20rem;
+  --fs-10: 18rem;
+  --fs-11: 14rem;
+  --offset: 15rem;
+  --offset-: 15rem;
+  --gap: 15rem;
+  --gap-: -15rem;
+  --gap-fluid: 30rem;
+  --gap-fluid-: -30rem;
+  @media (max-width: $sm) {
+    --fs-default: 14rem;
+    --fs-1: 42rem;
+    --fs-2: 36rem;
+    --fs-3: 32rem;
+    --fs-4: 26rem;
+    --fs-5: 22rem;
+    --fs-6: 20rem;
+    --fs-7: 18rem;
+    --fs-8: 16rem;
+    --fs-9: 14rem;
+    --fs-10: 14rem;
+    --fs-11: 14rem;
+    --gap-fluid: 20rem;
+    --gap-fluid-: -20rem;
+  }
+}
